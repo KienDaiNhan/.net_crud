@@ -15,7 +15,10 @@
             </td>
             <td>
               <a style="padding:0px 20px 0px 20px" href="update.aspx">Update</a>
-             </td>          
+             </td> 
+            <td>
+                <a href="delete.aspx">DELETE</a>
+            </td>
         </tr>
     </table>
      <div>

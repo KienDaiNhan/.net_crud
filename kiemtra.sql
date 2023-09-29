@@ -45,4 +45,16 @@ BEGIN
     WHERE ID = @ID;
 END;
 
+create procedure Deleltesanpham
+@ID INT,
+   @Ten NVARCHAR(255),
+	@Mota NVARCHAR(255),
+	@Soluongtonkho NVARCHAR(255),
+    @gia DECIMAL(10, 2),
+    @Donvitinh NVARCHAR(MAX)
+AS
+BEGIN
+	DELETE Sanpham
+
+
 
